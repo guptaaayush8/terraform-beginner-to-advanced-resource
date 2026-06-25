@@ -1,20 +1,20 @@
 # Domain  - Terraform Provisioners
 
-The code mentioned in this document are used in the HashiCorp Certified Terraform Associate 2022 video course.
+The code mentioned in this document are used in the HashiCorp Certified Terraform Associate 2024 video course.
 
 
 # Video-Document Mapper
 
 | Sr No | Document Link |
 | ------ | ------ |
-| 1 | [Implementing remote-exec provisioners][PlDa] |
-| 2 | [Implementing local-exec provisioners][PlDb] |
-| 3 | [Creation-Time & Destroy-Time Provisioners][PlDc] |
-| 4 | [Failure Behavior for Provisioners][PlDd] |
-| 5 | [Null Resource][PlDe] |
+| 1 | [Practical - local-exec Provisioner][PlDa] |
+| 2 | [Practical - remote-exec Provisioner][PlDb] |
+| 3 | [Points to Note - Provisioners][PlDc] |
+| 3 | [Creation-Time and Destroy-Time Provisioners][PlDd] |
+| 4 | [Failure Behavior for Provisioners][PlDe] |
 
-[PlDa]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%203%20-%20Terraform%20Provisioners/remote-exec.md>
-[PlDb]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%203%20-%20Terraform%20Provisioners/local-exec.tf>
-[PlDc]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%203%20-%20Terraform%20Provisioners/provisioner-types.md>
-[PlDd]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%203%20-%20Terraform%20Provisioners/failure-behavior.md>
-[PlDe]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%203%20-%20Terraform%20Provisioners/null.md>
+[PlDa]: <./local-exec.md>
+[PlDb]: <./remote-exec.md>
+[PlDc]: <./points-to-note.md>
+[PlDd]: <./create-destroy-time-provisioner.md>
+[PlDe]: <./failure-behaviour.md>
